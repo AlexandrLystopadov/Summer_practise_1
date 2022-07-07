@@ -13,8 +13,6 @@
 
 int main() {
 
-
-
 	float r, x, y;
 
 	printf("x = ");

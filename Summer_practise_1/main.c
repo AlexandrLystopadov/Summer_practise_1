@@ -13,9 +13,9 @@
 
 int main() {
 
-	struct dot one;
 
-	float r, x, y, x1, y1, r1;
+
+	float r, x, y;
 
 	printf("x = ");
 	scanf_s("%f", &x);
@@ -28,11 +28,6 @@ int main() {
 	}
 	printf("\nRadius %.2f with centre (%.2f, %.2f)\n", r, x, y);
 
-
+	point_search(r, x, y);
 	return 0;
-}
-
-void point_search(float r, float x, float y) {
-
-
 }

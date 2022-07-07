@@ -24,7 +24,7 @@ int main() {
 		printf("You entered a negative number\n");
 		return 0;
 	}
-	printf("\nRadius %.2f with centre (%.2f, %.2f)\n", r, x, y);
+	printf("\nRadius %.2f with centre (%.2f; %.2f)\n", r, x, y);
 
 	point_search(r, x, y);
 	return 0;
